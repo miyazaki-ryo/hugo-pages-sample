@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "ja"
+title = "My New Hugo Site"
+contentDir = "post"
+disableKinds = ["RSS", "sitemap"]
+publishDir = "docs"  # この行を追加
+[taxonomies]
+tag = "tags"
